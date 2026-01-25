@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+
+div{
+    background-color: green;
+    border-radius: 400px;
+    height: 200px;
+    width: 200px;
+}

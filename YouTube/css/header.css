@@ -1,0 +1,28 @@
+.header_div {
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left_section_div {
+    width: 200px;
+    background-color: lightblue;
+    margin-right: 50px;
+}
+
+.middle_section_div {
+    flex: 1;
+    background-color: lightcoral;
+    max-width: 500px;
+}
+
+.search_bar_input {
+    background-color: antiquewhite;
+}
+
+.right_section_div {
+    width: 200px;
+    background-color: rgb(255, 255, 57);
+    margin-left: 40px;
+}

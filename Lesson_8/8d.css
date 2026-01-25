@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+input{
+    color:gray;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+    padding: 8px 10px;
+    margin: 5px 0px;
+}
+
+button{
+    background-color: rgb(60, 112, 255);
+    padding: 8px 10px;
+    border: none;
+    border-radius: 6px;
+    width: 240px;
+    margin: 5px 0px;
+    padding: 13px 10px;
+    color:white;
+}
+
+.name_first{
+    display: inline-block;
+    width: 117px;
+margin-right: 3px;
+}
+.name_last{
+    display: inline-block;
+    width: 117px;
+    margin-left: 3px;
+}
+
+.email{
+    display: block;
+    width:240px
+}
+

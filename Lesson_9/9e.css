@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+div {
+    padding: 10px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.39);
+    border: none;
+    border-radius: 3px;
+    width: fit-content;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50px;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+input {
+    color: gray;
+    vertical-align: middle;
+    width: 250px;
+    border: none;
+    margin: 0px 10px;
+}
+
+button {
+    background-color: rgb(76, 157, 255);
+    color: white;
+    border: none;
+    border-radius: 100px;
+    vertical-align: middle;
+    padding: 7px 14px;
+    margin: 6px;
+}

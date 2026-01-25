@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.space{
+    margin: 20px;
+    width: 259px;
+
+    display: flex;
+    flex-direction: column;
+    
+    column-gap: 40px;
+}
+
+.item-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pet_image{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    object-fit: cover;
+
+}
+
+.text-flex{
+    flex:1;
+    margin-left: 10px;
+    
+}
+
+.name-text{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.gray-text{
+    color:gray;
+}
+
+p{
+    font-size: 10px;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+.button{
+    background-color: rgb(80, 164, 255);
+    color: white;
+    font-weight: bold;
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

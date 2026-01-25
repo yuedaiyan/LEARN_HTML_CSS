@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+
+div{
+    width: 400px;
+    border-width: 2px;
+    border-color: gray;
+    border-style: solid;
+    padding: 10px;
+}
+p{
+    vertical-align: top;
+    margin:0px;
+    padding: 10px 5px;
+}
+.yes_button{
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.no_button{
+    margin: 0px;
+}

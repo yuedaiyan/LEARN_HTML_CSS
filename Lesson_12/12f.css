@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.space{
+    margin: 5px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    justify-content: space-between;
+}
+
+
+
+
+
+.home-icon{
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+
+
+.input{
+    border: none;
+
+    height: 30px;
+    border-radius: 1000px;
+    padding: 0px 20px;
+    width: 400px;
+}
+
+
+
+.button-1{
+    margin-left: 50px;
+    margin-right: 20px;
+    background-color: blueviolet;
+    color:white;
+    border-color: white;
+    border-style: solid;
+    border-radius: 4px;
+    height: 30px;
+}
