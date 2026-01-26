@@ -1,0 +1,12 @@
+body{
+    height:6000px;
+    padding: 30px;
+}
+
+.bottom-right{
+   right:30px;
+   bottom: 30px; 
+   position: fixed;
+   background-color: black;
+   color: white;
+}

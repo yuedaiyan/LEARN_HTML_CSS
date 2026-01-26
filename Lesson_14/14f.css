@@ -1,0 +1,73 @@
+body{
+    background-color: gray;
+}
+
+.sidebar_one{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0; 
+    width: 44px;
+    background-color: #242424;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+.avatar-icon{
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 100px;
+    margin:10px 2px 0 0;
+    object-fit: cover;
+}
+
+.sidebar-two{
+    position: fixed;
+    top:0;
+    bottom:0;
+    left: 44px;
+    width:110px;
+    display: flex;
+    flex-direction: column;    
+    background-color: #3b3b3b;
+    padding: 10px 10px 10px 10px;
+}
+
+.infor-head{
+    /* flex:1; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.title{
+    color: white;
+    font-weight: bold;
+    font-size: 9px;
+}
+
+.add-friends{
+    color:gray;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+}
+
+.regular-text{
+    color: gray;
+    margin: 0 0 4px 0;
+    font-size: 9px;
+}
+
+
+
+
+
+
