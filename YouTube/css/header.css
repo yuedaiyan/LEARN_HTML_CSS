@@ -14,6 +14,8 @@
     border-bottom-style: solid;
     border-bottom-color: #d5d5d5;
     border-bottom-width: 1px;
+
+    z-index: 100;
 }
 
 /* <!-- YouTube 顶部菜单栏 左部分 --> */
@@ -49,7 +51,7 @@
     border-style: solid;
     border-color: #d5d5d5;
     border-width: 1px;
-    box-shadow: inset 1px 1px 2px #00000015;
+    box-shadow: inset 1px 1px 1px #00000011;
     padding: 0px 0px 1px 15px;
     width: 78px;
     -webkit-font-smoothing: antialiased;
@@ -103,9 +105,38 @@
     height: 25px;
 }
 
-.notifications_img {
+
+.notifications_div {
     height: 25px;
+    position: relative;
 }
+
+.notifications_img{
+    height: 100%;
+}
+
+.notifications_p{
+    background-color: #c30000;
+    height: 15px; 
+    width: 15px;
+    border-radius: 100px;
+
+    border: 1px solid white;
+
+    font-size: 12px;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top:-1px;
+    right:-2px
+    
+
+}
+
 
 .user_avatar_img {
     height: 30px;

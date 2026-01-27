@@ -1,4 +1,3 @@
-
 .video_space_div{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -10,23 +9,26 @@
     padding:   20px 20px 0px 20px;
 }
 
-/* .search_bar_input {
-    font-size: 20px;
-    display: block;
-    margin: 20px;
-} */
-
 .video_preview_div {
     display: inline-block;
     width: 100%;
     vertical-align: top;
     /* margin-right: 20px; */
 }
-
-.thembnails_img {
+.thembnails_div{
+    position: relative;
     width: 100%;
     display: block;
     margin-bottom: 15px;
+}
+.thembnails_time_p{
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 1px 5px 1px 5px;
+    border-radius: 4px;
+    right: 10px;
+    bottom: 10px;
 }
 
 .video_infor_div {
