@@ -1,0 +1,56 @@
+.video_channel_card{
+    background-color: rgb(255, 255, 255);
+    box-shadow:0px 0px 15px  rgba(0, 0, 0, 0.323);
+
+    border-radius: 2px;
+    position:absolute;
+    left: 10px;
+    bottom: -52px;
+
+    display: inline-flex;
+
+    align-items: center;
+   
+    width: max-content;
+    z-index: 100;
+
+    padding: 12px 17px 12px 17px;
+
+    opacity: 0;
+
+    transition: opacity 0.15s;
+    pointer-events: none;
+
+}
+
+.video_infor_channelPic_img:hover + .video_channel_card{
+    opacity: 1;
+ 
+}
+
+
+
+.card_pic{
+   width: 50px; 
+   height: 50px;
+   border-radius: 100px;
+   object-fit: cover;
+   
+}
+
+.card_textArea{
+    margin: 0px 0px 0px 15px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.card_textTitle{
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.card_textBody{
+    color: gray;
+    white-space: nowrap;
+}

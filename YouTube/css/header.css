@@ -64,6 +64,15 @@
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
 }
+    
+/* .search_bar_button,.voice_search_button{ */
+.search_bar_button,.voice_search_button{
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .search_button_img {
     padding: 6px 15px 6px 16px;
@@ -78,6 +87,33 @@
     margin-left: -1px;
 }
 
+
+.search_bar_button .tooltip,
+.voice_search_button .tooltip,
+.upload_button .tooltip,
+.youtube_apps .tooltip,
+.notifications_div .tooltip{
+    position: absolute;
+    background-color: rgba(106, 106, 106, 0.866);
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px;
+    font-size: 15px; 
+    bottom: -45px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.search_bar_button:hover .tooltip,
+.voice_search_button:hover .tooltip,
+.upload_button:hover .tooltip,
+.youtube_apps:hover .tooltip,
+.notifications_div:hover .tooltip{
+    opacity: 1;
+}
+
+
 .voice_search_button_img {
     padding: 8px;
     height: 41px;
@@ -87,6 +123,7 @@
     margin: 0px 0px 0px 15px;
 }
 
+
 /* <!-- YouTube 顶部菜单栏 右部分 --> */
 .right_section_div {
     width: 190px;
@@ -95,6 +132,13 @@
     align-items: center;
     justify-content: space-between;
     flex-shrink: 0;
+}
+
+.upload_button,.youtube_apps,.notifications_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 .upload_button_img {
@@ -133,8 +177,6 @@
     position: absolute;
     top:-1px;
     right:-2px
-    
-
 }
 
 
