@@ -1,0 +1,59 @@
+body {
+    height: 3000px;
+    background-color: antiquewhite;
+}
+
+.item {
+    height: 350px;
+    width: 300px;
+
+    overflow: hidden;
+
+    margin: 20px;
+
+    position: relative;
+}
+
+.item-pic {
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+    object-position: center;
+}
+
+.item-info {
+    background-color: black;
+    color: white;
+
+    position: absolute;
+    top: 15px;
+    right: 0px;
+
+    padding: 5px 10px 5px 10px;
+}
+
+.add-mask{
+    height: 30%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.534);
+    
+    position: absolute;
+    bottom: 0px;
+    z-index: 100;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-button{
+    padding: 5px 10px 5px 10px;
+    font-size: 14px;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;    
+
+
+}

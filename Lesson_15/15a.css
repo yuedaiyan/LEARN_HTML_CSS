@@ -1,0 +1,18 @@
+body{
+    height: 3000px;
+}
+.a-space{
+    position: relative;
+}
+.a-button{
+    background-color: black;
+    color: white;
+    /* padding: 30px; */
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 100px;
+    position: absolute;
+    top:20px;
+    right: 20px;
+}

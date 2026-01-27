@@ -2,55 +2,25 @@
 <html>
     <head>
         <title>Yuedaiyan</title>
-        <link rel="stylesheet" href="normalize.css" />
-        <link rel="stylesheet" href="base.css" />
-        <style></style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="my_habit.css">
+        <link rel="stylesheet" href="position.css" />
     </head>
-    <body style="height: 3000px; padding-top: 60px;padding-left: 60px;">
-        <div
-            style="
-                background-color: lightseagreen;
-                position: fixed;
-                top: 50px;
-                left: 0px;
-                width: 50px;
-                bottom: 0px;
-            "
-        >
+    <body style="height: 3000px; padding-top: 60px; padding-left: 60px">
+        <div class="sidebar">
             sidbar
+            <div class="X-1">X-1</div>
         </div>
-        <div
-            style="
-                background-color: black;
-                color: white;
-                position: fixed;
-                top: 0;
-                left: 0;
-                right: 0;
-                height: 50px;
-            "
-        >
-            header
-        </div>
-        <div
-            style="
-                background-color: lightblue;
-                position: static;
-                height: 200px;
-                width: 200px;
-            "
-        >
+
+        <div class="header">header</div>
+        <!-- <div class="absolute-1">absolute</div> -->
+        <div class="div-1">
             div 1
+            <div class="X-2">X-2</div>
         </div>
-        <div
-            style="
-                background-color: lightcoral;
-                position: static;
-                height: 200px;
-                width: 200px;
-            "
-        >
+        <div class="div-2">
             div 2
+            <div class="X-3">X-3</div>
         </div>
     </body>
 </html>
