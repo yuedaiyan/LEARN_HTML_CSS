@@ -1,0 +1,87 @@
+/* 侧边栏整体容器的基础样式 */
+.sidebar_div {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px; /* 假设顶部导航栏高度为55px，根据实际情况调整 */
+  background-color: white;
+  z-index: 100;
+  border-right: 1px solid #e5e5e5; /* 可选：右侧边框 */
+  
+  /* 添加过渡动画，让宽度变化更丝滑 */
+  transition: width 0.15s; 
+}
+
+/* 侧边栏链接的基础样式 */
+.sidebar_link {
+  display: flex;
+  cursor: pointer;
+  /* 使得背景色变换有过渡效果 */
+  transition: background-color 0.15s;
+}
+
+.sidebar_link:hover {
+  background-color: rgb(242, 242, 242);
+}
+
+.sidebar_icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* =========================================
+   1. 窄屏模式 (对应视频中的 "max-width: 1199px")
+   此时侧边栏收起，图标在文字上方
+   ========================================= */
+@media (max-width: 1199px) {
+  .sidebar_div {
+    width: 72px;
+  }
+
+  .sidebar_link {
+    height: 74px;
+    justify-content: center; /* 垂直居中 */
+    align-items: center;     /* 水平居中 */
+    flex-direction: column;  /* 竖直排列：图标在上，文字在下 */
+  }
+
+  .sidebar_text {
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    /* 防止文字过长换行 */
+    white-space: nowrap; 
+  }
+}
+
+/* =========================================
+   2. 宽屏模式 (对应视频中的 "min-width: 1200px")
+   此时侧边栏展开，文字出现在图标右侧
+   ========================================= */
+@media (min-width: 1200px) {
+  .sidebar_div {
+    width: 200px; /* 或者 240px，根据喜好调整 */
+  }
+
+  .sidebar_link {
+    height: 40px; /* 高度变矮，变成列表项风格 */
+    align-items: center; /* 垂直居中 */
+    flex-direction: row; /* 水平排列：图标在左，文字在右 */
+    
+    /* 【关键点】: 
+       窄屏宽72px，图标居中，意味着左边距约为24px。
+       所以这里设置 padding-left: 24px，保证图标视觉位置不变。
+    */
+    padding-left: 24px; 
+  }
+
+  .sidebar_icon {
+    /* 宽屏模式下，图标右侧需要一点间距隔开文字 */
+    margin-right: 24px; 
+  }
+
+  .sidebar_text {
+    font-size: 16px; /* 字体变大 */
+    margin: 0;       /* 去掉窄屏时的 margin */
+  }
+}

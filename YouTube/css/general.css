@@ -8,4 +8,10 @@ body{
     padding: 60px 0px 0px 70px;
 }
 
-a{display: block;}
+/* a{display: block;} */
+
+@media(width>1200px){
+   body{
+   padding: 60px 0px 0px 200px;
+   } 
+}
