@@ -1,0 +1,75 @@
+<!-- 2026.01.28 Yi 23:45 -->
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>YouTube_my</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+        <link rel="stylesheet" href="css/my_habit.css" />
+        <link rel="stylesheet" href="css/general.css" />
+        <link rel="stylesheet" href="css/header.css" />
+        <link rel="stylesheet" href="css/sidebar.css" />
+        <link rel="stylesheet" href="css/video.css" />
+    </head>
+    <body>
+        <!-- 网页头部 -->
+        <div class="header">
+            <!-- TODO:增加网页宽度变化时,搜索栏的变化效果 -->
+            <!-- 左部分 -->
+            <div class="left-part">
+                <img class="menuButton" src="icons/hamburger-menu.svg" />
+                <img class="youtubeLogo" src="icons/youtube-logo.svg" />
+            </div>
+            <!-- 中间部分 -->
+            <div class="middle-part">
+                <input class="searchBar" type="text" placeholder="Search" />
+                <button class="searchButton-area">
+                    <img class="searchButton" src="icons/search.svg" />
+                    <p class="hover-searchButton">Search</p>
+                </button>
+                <button class="voiceSearchButton-area">
+                    <img class="voiceSearchButton" src="icons/voice-search-icon.svg" />
+                    <p class="hover-voiceSearchButton">Search with your voice</p>
+                </button>
+            </div>
+            <!-- 右部分 -->
+            <div class="right-part">
+                <div class="hover-b-1">
+                    <img class="button-1" src="icons/upload.svg" />
+                    <p class="hover-b-1-text">Create</p>
+                </div>
+                <div class="hover-b-2">
+                    <img class="button-2" src="icons/youtube-apps.svg" />
+                    <p class="hover-b-2-text">YouTube apps</p>
+                </div>
+                <div class="hover-b-3">
+                    <img class="button-3" src="icons/notifications.svg" />
+                    <p class="numbers">3</p>
+                    <p class="hover-b-3-text">Notifications</p>
+                </div>
+                <img class="button-4" src="channel_pictures/user_avatar.jpeg" />
+            </div>
+        </div>
+
+        <!-- 网页侧边栏 -->
+        <div class="sidebar">
+            <!-- 一个标准按钮 -->
+            <div class="basic-pad">
+                <div class="icon"></div>
+                <div class="text"></div>
+            </div>
+        </div>
+
+        <!-- 网页中心视频部 -->
+        <div class="video">
+            <!-- 一个独立视频区 -->
+            <div class="basic-pad">
+                <div class="image-area"></div>
+                <div class="discription-area"></div>
+            </div>
+        </div>
+    </body>
+</html>
