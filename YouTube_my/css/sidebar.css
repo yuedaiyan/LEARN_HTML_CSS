@@ -1,0 +1,52 @@
+.sidebar {
+    width: 80px;
+    position: fixed;
+    top: 60px;
+    left: 0px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.sidebar-pad{
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sidebar .icon{
+    margin: 15px 0 0 0 ;
+    height: 25px;
+}
+
+.sidebar .text{
+    margin: 4px 0 0 0 ;
+    font-size: 11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
