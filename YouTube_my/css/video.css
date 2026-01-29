@@ -1,5 +1,27 @@
 .video{
     margin: 0 0 0 80px;
     border: 1px solid rebeccapurple;
-    height: 100px;
+    height: 1000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(width>1200px) {
+    .video{
+        margin-left:200px ;
+    }
 }
