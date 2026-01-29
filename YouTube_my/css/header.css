@@ -9,14 +9,17 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin: 0px 30px 0px 30px;
+    margin: 0px 20px 0px 30px;
+    width: 150px;
 }
 .menuButton {
-    height: 25px;
+    /* height: 25px; */
+    width: 25px;
     margin: 0px 15px 0px 0px;
 }
 .youtubeLogo {
-    height: 22px;
+    /* height: 22px; */
+    width:100px;
     margin: 0px 0px 0px 10px;
     padding: 0px 0px 1px 0px;
 }
@@ -27,6 +30,7 @@
     justify-content: center;
     align-items: center;
     margin: 0px 20px 0px 20px;
+    
 }
 /* 搜索栏 */
 .searchBar {
