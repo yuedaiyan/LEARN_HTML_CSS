@@ -3,7 +3,7 @@
 This repository contains my final project and exercises from completing the HTML & CSS comprehensive course. The project focuses on mastering layout techniques like Flexbox and CSS Grid.
 
 ##  Final Project
-* **File Path:** `/YouTube/youtube.html`
+* **File Path:** `/YouTube_my/YouTube_my.html`
 * **Best Viewed In:** Google Chrome
 
 ##  Resources & Credits
