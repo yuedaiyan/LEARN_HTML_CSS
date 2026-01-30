@@ -1,6 +1,6 @@
 .video {
     margin: 60px 0 0 80px;
-    padding: 20px 20px 40px 20px;
+    padding: 20px 20px 160px 20px;
     grid-template-columns: 1fr;
     display: grid;
     column-gap: 20px;
@@ -74,6 +74,7 @@
     margin: 5px 20px 10px 10px;
     border-radius: 100px;
     /* overflow: hidden; */
+    /* position: relative; */
 }
 .description-area .avatar-a{
     /* background-color: #ff0000; */
@@ -127,8 +128,8 @@
     background-color: rgb(255, 255, 255);
 
     position: absolute;
-    bottom: -105px;
-    left: 10px;
+    bottom: -118px;
+    left: 15px;
     border-radius: 3px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.177);
 
