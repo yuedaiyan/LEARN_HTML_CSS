@@ -66,10 +66,10 @@
 .description-area .avatar-area {
     flex-shrink: 0;
 }
-.description-area .avatar {
+.avatar-area .avatar {
     border-radius: 100px;
     height: 50px;
-    margin: 10px 20px 10px 10px;
+    margin: 5px 20px 10px 10px;
     flex-shrink: 0;
 }
 
@@ -99,12 +99,11 @@
     cursor: pointer;
 }
 .avatar-area {
-    border: 1px solid #ff0000;
+    /* border: 1px solid #ff0000; */
     position: relative;
 }
-.avatar-area .card {
-    height: 90px;
-    width: 240px;
+.card-area {
+    padding: 15px 25px 15px 20px;
     background-color: rgb(255, 255, 255);
     position: absolute;
     bottom: -100px;
@@ -114,6 +113,42 @@
     
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-end;
+    
+    flex: none;
+    width: max-content;
 }
 
+.card-area .avatar {
+    margin: 0 20px 0 0;
+    width: 65px;
+    height: 65px;
+}
+
+.card-area .upName-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+}
+
+.upName-area .upName {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+  
+}
+
+.upName-area .fans {
+    color: gray;
+}
+
+/* avatar card 悬停动态 */
+.card-area{
+    opacity: 0;
+    transition: opacity 0.15ssssss ease;
+}
+.avatar-area .avatar:hover + .card-area{
+    opacity: 1;
+}
