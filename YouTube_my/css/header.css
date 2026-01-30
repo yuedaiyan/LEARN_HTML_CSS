@@ -2,6 +2,18 @@
     height: 60px;
     display: flex;
     justify-content: space-between;
+
+    z-index: 200;
+
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right:0px;
+
+        background-color: white;
+
+     border-bottom: 1px solid #bbbbbb;
+    /* background-color: #0562ed; */
 }
 
 /* 左部分样式 */
@@ -9,7 +21,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin: 0px 20px 0px 30px;
+    margin: 0px 20px 0px 28px;
     min-width: 150px;
     /* 防止flexbox被压缩 */
     flex-shrink: 0;
@@ -97,7 +109,7 @@
     align-items: center;
     margin: 0px 0px 0px 20px;
 
-    /* 放置flexbox被压缩 */
+    /* 防止flexbox被压缩 */
     flex-shrink: 0;
 }
 .button-1,
@@ -134,7 +146,7 @@
 .hover-b-1-text,
 .hover-b-2-text,
 .hover-b-3-text {
-    background-color: #9b9b9b;
+    background-color: #606060;
     padding: 4px 12px 4px 12px;
     border-radius: 2px;
     white-space: nowrap;
@@ -144,6 +156,7 @@
     opacity: 0;
     font-size: 1spx;
     transition: opacity 0.15s ease;
+         z-index: 200;
 }
 
 .searchButton:hover + .hover-searchButton,

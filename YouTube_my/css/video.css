@@ -1,29 +1,32 @@
 .video {
-    margin: 0 0 0 80px;
-    padding: 20px 20px 40px 10px;
+    margin: 60px 0 0 80px;
+    padding: 20px 20px 40px 20px;
     grid-template-columns: 1fr;
     display: grid;
     column-gap: 20px;
     row-gap: 30px;
-    background-color: rgb(247, 247, 247);
+    background-color: #f7f7f7;
+
+     
 }
 
 .video-pad {
-    border: 1px solid sandybrown;
+    /* border: 1px solid sandybrown; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    height: 350px;
+    padding-bottom: 30px;
+    /* height: 360px; */
 }
 
-@media (width>600px) {
+@media (width>650px) {
     .video {
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media (width>900px) {
+@media (width>1000px) {
     .video {
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -34,8 +37,11 @@
         margin-left: 200px;
         grid-template-columns: 1fr 1fr 1fr;
     }
+    /* .video-pad{
+        height: 380px;
+    } */
 }
-@media (width>=1920px) {
+@media (width>=1700px) {
     .video {
         margin-left: 200px;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -63,14 +69,26 @@
     margin: 10px 0 0px 0;
 }
 
-.description-area .avatar-area {
+.avatar-area {
     flex-shrink: 0;
+    margin: 5px 20px 10px 10px;
+    border-radius: 100px;
+    /* overflow: hidden; */
+}
+.description-area .avatar-a{
+    /* background-color: #ff0000; */
+    display: block;
+    /* border: 1px solid blue; */
+    
+    border-radius: 100px;
 }
 .avatar-area .avatar {
     border-radius: 100px;
     height: 50px;
-    margin: 5px 20px 10px 10px;
+    width: 50px;
+
     flex-shrink: 0;
+    /* vertical-align: bottom; */
 }
 
 .description-area .text-area {
@@ -93,28 +111,31 @@
 }
 
 /* 动态部分 */
-.avatar-area .avatar:hover,
-.text-area .title:hover,
-.image-area .image:hover {
+/* .avatar-area .avatar:hover, */
+/* .text-area .title:hover, */
+/* .image-area .image:hover {
     cursor: pointer;
-}
+} */
+
 .avatar-area {
     /* border: 1px solid #ff0000; */
     position: relative;
+    /* background-color: blue; */
 }
 .card-area {
     padding: 15px 25px 15px 20px;
     background-color: rgb(255, 255, 255);
+
     position: absolute;
-    bottom: -100px;
+    bottom: -105px;
     left: 10px;
     border-radius: 3px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.177);
-    
+
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    
+
     flex: none;
     width: max-content;
 }
@@ -130,14 +151,12 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-
 }
 
 .upName-area .upName {
     color: black;
     font-weight: bold;
     font-size: 18px;
-  
 }
 
 .upName-area .fans {
@@ -145,10 +164,13 @@
 }
 
 /* avatar card 悬停动态 */
-.card-area{
+.card-area {
     opacity: 0;
-    transition: opacity 0.15ssssss ease;
+    z-index: 200;
+    transition: opacity 0.3s ease;
 }
-.avatar-area .avatar:hover + .card-area{
-    opacity: 1;
+.avatar-area:hover {
+    .card-area {
+        opacity: 1;
+    }
 }

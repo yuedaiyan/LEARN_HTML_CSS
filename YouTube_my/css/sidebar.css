@@ -1,7 +1,7 @@
 .sidebar {
     width: 80px;
     position: fixed;
-    top: 60px;
+    top: 59px;
     left: 0px;
     bottom: 0px;
     display: flex;
@@ -10,14 +10,16 @@
     align-items: stretch;
 
     transition: all 0.15s ease;
+    background-color: white;
+    z-index: 200;
 }
+
 
 .sidebar-pad {
     /* border: 1px solid blue; */
     height: 70px;
     display: flex;
     flex-direction: column;
-    /* justify-content: flex-start; */
     align-items: center;
 }
 .sidebar .icon {
