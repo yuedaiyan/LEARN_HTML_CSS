@@ -5,6 +5,7 @@ This repository contains my final project and exercises from completing the HTML
 ##  Final Project
 * **File Path:** `/YouTube_my/YouTube_my.html`
 * **Best Viewed In:** Google Chrome
+
     <div align="center">
         <img src="/YouTube_my/screenshot.png" height="200"  alt="YouTube.com Diagram">
     </div>
