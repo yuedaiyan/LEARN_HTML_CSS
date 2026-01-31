@@ -5,6 +5,9 @@ This repository contains my final project and exercises from completing the HTML
 ##  Final Project
 * **File Path:** `/YouTube_my/YouTube_my.html`
 * **Best Viewed In:** Google Chrome
+    <div align="center">
+        <img src="/YouTube_my/screenshot.png" height="200"  alt="YouTube.com Diagram">
+    </div>
 
 ##  Resources & Credits
 * **Course Video:** [HTML & CSS Full Course](https://www.youtube.com/watch?v=G3e-cpL7ofc) by SuperSimpleDev
