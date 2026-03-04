@@ -5,18 +5,22 @@ This repository contains my final project and exercises from completing the HTML
 ##  Final Project
 * **File Path:** `/YouTube_my/YouTube_my.html`
 * **Best Viewed In:** Google Chrome
+<br>
 
-    <div align="center">
-        <a href="https://yuedaiyan.github.io/LEARN_HTML_CSS/YouTube_my/YouTube_my.html">
-            <img src="/YouTube_my/screenshot.png" height="200"  alt="YouTube.com Diagram">
-        </a>
-    </div>
+<div align="center">
+        
+<a href="https://yuedaiyan.github.io/LEARN_HTML_CSS/YouTube_my/YouTube_my.html">
+<img src="/YouTube_my/screenshot.png" height="200"  alt="YouTube.com Diagram">
+</a>
+
+</div>
 
 <div align="center">
 
 [Click me to enter the webpage](https://yuedaiyan.github.io/LEARN_HTML_CSS/YouTube_my/YouTube_my.html)
 
 </div>
+
 
 ##  Resources & Credits
 * **Course Video:** [HTML & CSS Full Course](https://www.youtube.com/watch?v=G3e-cpL7ofc) by SuperSimpleDev
