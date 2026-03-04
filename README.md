@@ -21,6 +21,7 @@ This repository contains my final project and exercises from completing the HTML
 
 </div>
 
+<br>
 
 ##  Resources & Credits
 * **Course Video:** [HTML & CSS Full Course](https://www.youtube.com/watch?v=G3e-cpL7ofc) by SuperSimpleDev
