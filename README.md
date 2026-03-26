@@ -26,7 +26,7 @@ This repository contains my final project and exercises from completing the HTML
 ##  Resources & Credits
 * **Course Video:** [HTML & CSS Full Course](https://www.youtube.com/watch?v=G3e-cpL7ofc) by SuperSimpleDev
 * **Assignments:** [Course Repository](https://github.com/SuperSimpleDev/html-css-course)
-* **Reference Example:** [Live Demo](https://supersimple.dev/exercises/youtube/)
+<!-- * **Reference Example:** [Live Demo](https://supersimple.dev/exercises/youtube/) -->
 
 ---
 *Completed as part of my Front-End development learning journey.*
