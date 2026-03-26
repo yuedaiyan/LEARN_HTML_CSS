@@ -1,4 +1,4 @@
-# HTML & CSS Practice: YouTube Clone
+# HTML & CSS Course: YouTube Clone
 
 This repository contains my final project and exercises from completing the HTML & CSS comprehensive course. The project focuses on mastering layout techniques like Flexbox and CSS Grid.
 
